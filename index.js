@@ -38,11 +38,11 @@
         let hour = today.getHours();
         if (hour < 12) {
             // Morning
-            document.body.style.backgroundImage = "url('https://web.archive.org/web/20220819080247/https://source.unsplash.com/random/1920x1080/?morning')";
+            document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1920x1080/?morning')";
             Greeting.textContent = 'Good Morning, ';
         } else if (hour < 18) {
             // Afternoon
-            document.body.style.backgroundImage = "url('https://web.archive.org/web/20220819080247/https://source.unsplash.com/random/1920x1080/?afternoon')";
+            document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1920x1080/?afternoon')";
             Greeting.textContent = 'Good Afternoon, ';
         } else {
             // Night
