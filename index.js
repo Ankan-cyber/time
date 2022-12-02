@@ -46,7 +46,7 @@
             Greeting.textContent = 'Good Afternoon, ';
         } else {
             // Night
-            document.body.style.backgroundImage = "url('https://web.archive.org/web/20220819080247/https://source.unsplash.com/random/1920x1080/?night')";
+            document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1920x1080/?night')";
             Greeting.textContent = 'Good Night, ';
         }
     }
