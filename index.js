@@ -1,4 +1,3 @@
-
 // DOM Elements
     const CurTime = document.querySelector('#time');
     const Greeting = document.getElementById('greeting');
@@ -105,5 +104,3 @@
     setBgGreet();
     GetName();
     GetFocus();
- 
-}
